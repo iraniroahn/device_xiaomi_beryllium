@@ -11,9 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/beryllium/beryllium-vendor.mk)
 
-# Firmware
-$(call inherit-product, vendor/xiaomi-firmware/beryllium/firmware.mk)
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2246
 TARGET_SCREEN_WIDTH := 1080
